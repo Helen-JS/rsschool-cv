@@ -37,3 +37,17 @@ const makeItFunny = (str, n) => {
 }
 makeItFunny("I never look back", 3)
 ```
+
+## Work experience
+
+typing... please wait
+
+## Education
+
+* 2015 Herzen Russian State Pedagogical University, St.Petersburg. Institute of Postgraduate Education, English teacher in secondary school.  
+* 2014 Brigham Young University-Idaho. Oline English classes.  
+* 2008 Perm State University, Perm. Faculty of Geography, Nature Management.
+
+## Foreign languages
+
+* English (B2 level)
