@@ -20,3 +20,20 @@ I am interested in programming. My goal is to become a senior frontend developer
 * IDE Webstorm
 * Chrome DevTools
 * GitHub
+
+## Code examples
+
+```
+const makeItFunny = (str, n) => {
+  let localString = '';
+  for(let i = 0; i <= str.length - 1; i++){
+    let char = str.charAt(i)
+    if((i + 1) % n == 0){
+      char = char.toUpperCase();
+    }  
+    localString = localString.concat(char);
+  }
+  return localString;
+}
+makeItFunny("I never look back", 3)
+```
