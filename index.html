@@ -1,0 +1,205 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Elena Samoilova">
+    <meta name="keywords" content="HTML, CSS, JavaScript, programming, frontend, cv">
+    <title>CV Elena Samoilova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-wrapper">
+    <header class="section header">
+        <h1 class="header-title">CV</h1>
+
+        <nav class="menu">
+            <ul class="menu-list">
+                <li class="menu-list-item">
+                    <a href="#contacts">Contacts</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="#personal">Personal information</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="#skills">Professional skills</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="#code">Code examples</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="#experience">Work experience</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="menu-list-item">
+                    <a href="#languages">Foreign languages</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section contacts-section" id="contacts">
+
+            <img class="contacts-picture"
+                 src="img/my-photo.jpeg"
+                 alt="my photo"
+            >
+
+        <div class="contacts-text">
+            <h2 class="contacts-title">Elena Samoilova</h2>
+
+            <ul class="contacts-list">
+                <li class="contacts-list-item"><u>St.Petersburg, Russia</u></li>
+                <li class="contacts-list-item"><b>cell:</b> +7-967-597-68-62</li>
+                <li class="contacts-list-item"><b>email:</b> helen-js@mail.ru</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section" id="personal">
+        <h2 class="section-title">Personal information</h2>
+
+        <p class="section-text"> I am interested in programming. My goal is to become a
+            <mark>senior frontend developer</mark>
+            . Currently I don’t have experience in this field, but I
+            intend to learn and grow fast. I am
+            <mark>persistent</mark>
+            ,
+            <mark>patient</mark>
+            and
+            <mark>diligent</mark>
+            . Also I am
+            <mark>good at foreign languages</mark>
+            . I am sure it will help me achieve my goal.
+        </p>
+    </section>
+
+    <section class="section" id="skills">
+        <h2 class="section-title">Professional skills</h2>
+
+        <ul class="list">
+            <li class="list-item">HTML</li>
+            <li class="list-item">CSS</li>
+            <li class="list-item">JavaScript</li>
+            <li class="list-item">IDE Webstorm</li>
+            <li class="list-item">Chrome DevTools</li>
+            <li class="list-item">GitHub</li>
+        </ul>
+    </section>
+
+    <section class="section" id="code">
+        <h2 class="section-title">Code examples</h2>
+
+        <pre>
+       <code>
+        &lt;section class="section contacts-section" id="contacts"&gt;
+            &lt;figure class="contacts-picture-container"&gt;
+                &lt;img class="contacts-picture"
+                 src="my%20photo.jpeg"
+                 alt="my photo"
+                &gt;
+            &lt;/figure&gt;
+
+            &lt;div class="contacts-text"&gt;
+                &lt;h2 class="contacts-title"&gt;
+                    Elena Samoilova
+                &lt;/h2&gt;
+
+                &lt;ul class="contacts-list"&gt;
+                    &lt;li class="contacts-list-item"&gt;&lt;u&gt;St.Petersburg, Russia&lt;/u&gt;&lt;/li&gt;
+                    &lt;li class="contacts-list-item"&gt;&lt;b&gt;cell:&lt;/b&gt; +7-967-597-68-62&lt;/li&gt;
+                    &lt;li class="contacts-list-item"&gt;&lt;b&gt;email:&lt;/b&gt; helen-js@mail.ru&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+       </code>
+        </pre>
+
+        <details>
+            <summary>Show more examples</summary>
+            <pre>
+                <code>
+        const makeItFunny = (str, n) =&gt; {
+            let localString = '';
+
+            for(let i = 0; i &lt;= str.length - 1; i++) {
+
+                    let char = str.charAt(i)
+
+                    if((i + 1) % n == 0) {
+                    char = char.toUpperCase();
+                    }
+            localString = localString.concat(char);
+            }
+        return localString;
+        }
+        makeItFunny("I never look back", 3)
+                </code>
+            </pre>
+        </details>
+    </section>
+
+    <section class="section" id="experience">
+        <h2 class="section-title">Work experience</h2>
+
+        <p class="section-text">Typing... please wait... Well, I think I'll just put this picture here for now:</p>
+
+        <figure class="experience-picture-wrapper">
+            <img class="experience-picture"
+                 src="img/JavaScript-code.jpeg"
+                 alt="JavaScript code"
+            >
+            <figcaption class="experience-picture-caption">My future job :)</figcaption>
+        </figure>
+    </section>
+
+    <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+
+        <ul class="list">
+            <li class="list-item">
+                <b>2015</b> &ndash; Herzen Russian State Pedagogical University, St.Petersburg. Institute of
+                Postgraduate Education,
+                English teacher in secondary school.
+            </li>
+            <li class="list-item">
+                <b>2014</b> &ndash; Brigham Young University-Idaho. Online English classes.
+            </li>
+            <li class="list-item">
+                <b>2008</b> &ndash; Perm State University, Perm. Faculty of Geography, Nature Management.
+            </li>
+        </ul>
+    </section>
+
+    <section class="section" id="languages">
+        <h2 class="section-title">Foreign languages</h2>
+
+        <ul class="list">
+            <li class="list-item">English (B2 level)</li>
+        </ul>
+    </section>
+
+    <footer class="section footer">
+        <div class="tooltip">
+            <a class="footer-logo" href="https://rs.school/js/" target="_blank">
+                <img class="logo"
+                     src="img/rs_school_logo.jpeg"
+                     alt="rs_school_js logo"
+                >
+            </a>
+            <span class="tooltip-text">https://rs.school/js/</span>
+        </div>
+        <div class="footer-text">
+            &#169;
+            <span class="tooltip">
+                <a class="tooltip" href="https://github.com/Helen-JS" target="_blank">Helen-JS</a>,
+                <span class="tooltip-text">Visit my Github page</span>
+            </span>
+            2021.
+        </div>
+    </footer>
+</div>
+</body>
+</html>

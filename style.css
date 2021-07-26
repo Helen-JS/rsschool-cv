@@ -1,0 +1,231 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    background-color: sandybrown;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 130%;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.section {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px maroon;
+    background-color: bisque;
+}
+
+.section-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #330000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    padding: 5px;
+    border: 3px solid maroon;
+    color: maroon;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2px;
+    margin-left: 15px;
+    margin-right: 15px;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.menu-list-item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.menu-list-item a {
+    padding: 10px;
+    border-radius: 5px;
+    color: maroon;
+    background-color: sandybrown;
+    text-decoration: none;
+}
+
+.menu-list-item a:hover, .menu-list-item a:active {
+    color: #ffffff;
+    background-color: maroon;
+}
+
+.contacts-section {
+    display: flex;
+    column-gap: 40px;
+}
+
+/*.contacts-picture-container {
+    width: 20%;
+}*/
+
+.contacts-picture {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 5px;
+}
+
+.contacts-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: maroon;
+}
+
+.contacts-list {
+    margin-top: 20px;
+    line-height: 200%;
+    list-style-type: none;
+}
+
+.list {
+    padding-left: 30px;
+    line-height: 150%;
+}
+
+.list-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+code {
+    display: block;
+    border-radius: 5px;
+    overflow: scroll;
+    font-family: Consolas, "courier new";
+    font-size: 18px;
+    color: crimson;
+    background-color: #f1f1f1;
+}
+
+.experience-picture-wrapper {
+    padding: 20px;
+}
+
+.experience-picture {
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+.experience-picture-caption {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 40px;
+    color: maroon;
+    background-color: coral;
+}
+
+.logo {
+    max-width: 90px;
+    border: 3px solid maroon;
+}
+
+.footer-text {
+    padding: 5px;
+    border: 3px solid maroon;
+    background-color: #ffffff;
+}
+
+.footer-text a {
+    color: maroon;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    color: red;
+}
+
+.tooltip {
+    position: relative;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: fit-content;
+    background-color: maroon;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 120%;
+    left: 60%;
+    margin-left: -100%;
+    font-size: 18px;
+
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .contacts-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
