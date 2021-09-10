@@ -5,95 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Elena Samoilova">
     <meta name="keywords" content="HTML, CSS, JavaScript, programming, frontend, cv">
-    <title>CV Elena Samoilova</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+            rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+    <title>CV Elena Samoylova</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 <div class="page-wrapper">
-    <header class="section header">
-        <h1 class="header-title">CV</h1>
-
-        <nav class="menu">
-            <ul class="menu-list">
-                <li class="menu-list-item">
-                    <a href="#contacts">Contacts</a>
-                </li>
-                <li class="menu-list-item">
-                    <a href="#personal">Personal information</a>
-                </li>
-                <li class="menu-list-item">
-                    <a href="#skills">Professional skills</a>
-                </li>
-                <li class="menu-list-item">
-                    <a href="#code">Code examples</a>
-                </li>
-                <li class="menu-list-item">
-                    <a href="#experience">Work experience</a>
-                </li>
-                <li class="menu-list-item">
-                    <a href="#education">Education</a>
-                </li>
-                <li class="menu-list-item">
-                    <a href="#languages">Foreign languages</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="section contacts-section" id="contacts">
-
-            <img class="contacts-picture"
+    <header class="header">
+        <figure class="avatar-wrapper">
+            <img class="avatar"
                  src="img/my-photo.jpeg"
                  alt="my photo"
             >
-
-        <div class="contacts-text">
-            <h2 class="contacts-title">Elena Samoilova</h2>
-
-            <ul class="contacts-list">
-                <li class="contacts-list-item"><u>St.Petersburg, Russia</u></li>
-                <li class="contacts-list-item"><b>cell:</b> +7-967-597-68-62</li>
-                <li class="contacts-list-item"><b>email:</b> helen-js@mail.ru</li>
-            </ul>
+        </figure>
+        <div class="header-content">
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li>
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#personal">About me</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#code">Code examples</a>
+                    </li>
+                    <li>
+                        <a href="#experience">Work experience</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#languages">Languages</a>
+                    </li>
+                    <li class="menu-icon">
+                        <a href="javascript:void(0);" onclick="resizeMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="header-title">Elena Samoylova</h1>
+            <p class="header-subtitle">Front-end Developer</p>
         </div>
-    </section>
+    </header>
+    <main class="main">
+        <div class="left-column">
+            <section class="section-left" id="contacts">
+                <h2 class="section-title left">Contacts</h2>
 
-    <section class="section" id="personal">
-        <h2 class="section-title">Personal information</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-list-item"><u><b>St.Petersburg, Russia</b></u></li>
+                    <li class="contacts-list-item"><b>cell:</b> +7-967-597-68-62</li>
+                    <li class="contacts-list-item"><b>email:</b> helen-js@mail.ru</li>
+                </ul>
+            </section>
 
-        <p class="section-text"> I am interested in programming. My goal is to become a
-            <mark>senior frontend developer</mark>
-            . Currently I don’t have experience in this field, but I
-            intend to learn and grow fast. I am
-            <mark>persistent</mark>
-            ,
-            <mark>patient</mark>
-            and
-            <mark>diligent</mark>
-            . Also I am
-            <mark>good at foreign languages</mark>
-            . I am sure it will help me achieve my goal.
-        </p>
-    </section>
+            <section class="section-left" id="skills">
+                <h2 class="section-title left">Skills</h2>
 
-    <section class="section" id="skills">
-        <h2 class="section-title">Professional skills</h2>
+                <ul class="list section-text">
+                    <li class="list-item">HTML</li>
+                    <li class="list-item">CSS</li>
+                    <li class="list-item">JavaScript</li>
+                    <li class="list-item">Figma</li>
+                    <li class="list-item">Chrome DevTools</li>
+                    <li class="list-item">GitHub</li>
+                </ul>
+            </section>
 
-        <ul class="list">
-            <li class="list-item">HTML</li>
-            <li class="list-item">CSS</li>
-            <li class="list-item">JavaScript</li>
-            <li class="list-item">IDE Webstorm</li>
-            <li class="list-item">Chrome DevTools</li>
-            <li class="list-item">GitHub</li>
-        </ul>
-    </section>
+            <section class="section-left" id="languages">
+                <h2 class="section-title left">Languages</h2>
 
-    <section class="section" id="code">
-        <h2 class="section-title">Code examples</h2>
+                <ul class="list section-text">
+                    <li class="list-item">English (B1 level)</li>
+                    <li class="list-item">Russian (native)</li>
+                </ul>
+            </section>
+        </div>
 
-        <pre>
-       <code>
+        <div class="right-column">
+
+            <section id="personal">
+                <h2 class="section-title right">About me</h2>
+
+                <p class="section-text"> I am interested in programming. My goal is to become a
+                    <mark>senior frontend developer</mark>
+                    . Currently I don’t have experience in this field, but I
+                    intend to learn and grow fast. I am
+                    <mark>persistent</mark>
+                    ,
+                    <mark>patient</mark>
+                    and
+                    <mark>diligent</mark>
+                    . Also I am
+                    <mark>good at foreign languages</mark>
+                    . I am sure it will help me achieve my goal.
+                </p>
+            </section>
+
+
+            <section id="code">
+                <h2 class="section-title right">Code examples</h2>
+
+                <pre>
+       <code class="html">
         &lt;section class="section contacts-section" id="contacts"&gt;
             &lt;figure class="contacts-picture-container"&gt;
                 &lt;img class="contacts-picture"
@@ -117,10 +151,10 @@
        </code>
         </pre>
 
-        <details>
-            <summary>Show more examples</summary>
-            <pre>
-                <code>
+                <details>
+                    <summary class="section-text">Show more examples</summary>
+                    <pre>
+                <code class="js">
         const makeItFunny = (str, n) =&gt; {
             let localString = '';
 
@@ -138,68 +172,68 @@
         makeItFunny("I never look back", 3)
                 </code>
             </pre>
-        </details>
-    </section>
+                </details>
+            </section>
 
-    <section class="section" id="experience">
-        <h2 class="section-title">Work experience</h2>
+            <section id="experience">
+                <h2 class="section-title right">Work experience</h2>
 
-        <p class="section-text">Typing... please wait... Well, I think I'll just put this picture here for now:</p>
+                <p class="section-text">Typing... please wait... Well, I think I'll just put this picture here for
+                    now:</p>
 
-        <figure class="experience-picture-wrapper">
-            <img class="experience-picture"
-                 src="img/JavaScript-code.jpeg"
-                 alt="JavaScript code"
-            >
-            <figcaption class="experience-picture-caption">My future job :)</figcaption>
-        </figure>
-    </section>
+                <figure class="experience-picture-wrapper">
+                    <img class="experience-picture"
+                         src="img/JavaScript-code.jpeg"
+                         alt="JavaScript code"
+                    >
+                    <figcaption class="experience-picture-caption">My future job :)</figcaption>
+                </figure>
+            </section>
 
-    <section class="section" id="education">
-        <h2 class="section-title">Education</h2>
+            <section id="education">
+                <h2 class="section-title right">Education</h2>
 
-        <ul class="list">
-            <li class="list-item">
-                <b>2015</b> &ndash; Herzen Russian State Pedagogical University, St.Petersburg. Institute of
-                Postgraduate Education,
-                English teacher in secondary school.
-            </li>
-            <li class="list-item">
-                <b>2014</b> &ndash; Brigham Young University-Idaho. Online English classes.
-            </li>
-            <li class="list-item">
-                <b>2008</b> &ndash; Perm State University, Perm. Faculty of Geography, Nature Management.
-            </li>
-        </ul>
-    </section>
-
-    <section class="section" id="languages">
-        <h2 class="section-title">Foreign languages</h2>
-
-        <ul class="list">
-            <li class="list-item">English (B2 level)</li>
-        </ul>
-    </section>
-
-    <footer class="section footer">
-        <div class="tooltip">
-            <a class="footer-logo" href="https://rs.school/js/" target="_blank">
-                <img class="logo"
-                     src="img/rs_school_logo.jpeg"
-                     alt="rs_school_js logo"
-                >
-            </a>
-            <span class="tooltip-text">https://rs.school/js/</span>
+                <ul class="list education-list section-text">
+                    <li class="list-item">
+                        <b>2015</b> &ndash; Herzen Russian State Pedagogical University, St.Petersburg. Institute of
+                        Postgraduate Education,
+                        English teacher in secondary school.
+                    </li>
+                    <li class="list-item">
+                        <b>2014</b> &ndash; Brigham Young University-Idaho. Online English classes.
+                    </li>
+                    <li class="list-item">
+                        <b>2008</b> &ndash; Perm State University, Perm. Faculty of Geography, Nature Management.
+                    </li>
+                </ul>
+            </section>
         </div>
-        <div class="footer-text">
-            &#169;
-            <span class="tooltip">
+    </main>
+
+    <footer class="footer">
+        <div class="footer-left"></div>
+        <div class="footer-content">
+            <div class="tooltip">
+                <a class="footer-logo" href="https://rs.school/js/" target="_blank">
+                    <img class="logo"
+                         src="img/rs_school_logo.jpeg"
+                         alt="rs_school_js logo"
+                    >
+                </a>
+                <span class="tooltip-text">https://rs.school/js/</span>
+            </div>
+            <div class="footer-text">
+                &#169;
+                <span class="tooltip">
                 <a class="tooltip" href="https://github.com/Helen-JS" target="_blank">Helen-JS</a>,
                 <span class="tooltip-text">Visit my Github page</span>
             </span>
-            2021.
+                2021.
+            </div>
         </div>
     </footer>
 </div>
+
+<script src="script.js"></script>
 </body>
 </html>
