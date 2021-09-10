@@ -3,8 +3,7 @@
 ## Personal details and contact information
 
 **Elena Samoilova**  
-St.Petersburg, Russia  
-Date of birth: 04.09.1985  
+St.Petersburg, Russia   
 cell: +7-960-267-37-99  
 email: helen-js@mail.ru
 
@@ -50,4 +49,4 @@ typing... please wait
 
 ## Foreign languages
 
-* English (B2 level)
+* English (B1 level)
