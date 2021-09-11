@@ -1,0 +1,311 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Elena Samoilova">
+    <meta name="keywords" content="HTML, CSS, JavaScript, programming, frontend, cv">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+            rel="stylesheet">
+    <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+    <title>CV Elena Samoylova</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="page-wrapper">
+    <header class="header">
+        <figure class="avatar-wrapper">
+            <img class="avatar"
+                 src="img/my-photo.jpeg"
+                 alt="my photo"
+            >
+        </figure>
+        <div class="header-content">
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li>
+                        <a href="#contacts">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#personal">About me</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#code">Code examples</a>
+                    </li>
+                    <li>
+                        <a href="#projects">My projects</a>
+                    </li>
+                    <li>
+                        <a href="#experience">Work experience</a>
+                    </li>
+                    <li>
+                        <a href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a href="#languages">Languages</a>
+                    </li>
+                    <li class="menu-icon">
+                        <a href="javascript:void(0);" onclick="resizeMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="header-title">Elena Samoylova</h1>
+            <p class="header-subtitle">Front-end Developer</p>
+        </div>
+    </header>
+    <main class="main">
+        <div class="left-column">
+            <section class="section-left" id="contacts">
+                <h2 class="section-title left">Contacts</h2>
+
+                <ul class="contacts-list">
+                    <li class="contacts-list-item"><u><b>St.Petersburg, Russia</b></u></li>
+                    <li class="contacts-list-item"><b>cell:</b> +7-967-597-68-62</li>
+                    <li class="contacts-list-item"><b>email:</b> helen-js@mail.ru</li>
+                </ul>
+            </section>
+
+            <section class="section-left" id="skills">
+                <h2 class="section-title left">Skills</h2>
+
+                <ul class="list section-content">
+                    <li class="list-item">HTML
+                        <div class="skills-wrapper">
+                            <div class="skills skill-html">80%</div>
+                        </div>
+                    </li>
+                    <li class="list-item">CSS
+                        <div class="skills-wrapper">
+                            <div class="skills skill-css">80%</div>
+                        </div>
+                    </li>
+                    <li class="list-item">JavaScript
+                        <div class="skills-wrapper">
+                            <div class="skills skill-js">20%</div>
+                        </div>
+                    </li>
+                    <li class="list-item">Figma
+                        <div class="skills-wrapper">
+                            <div class="skills skill-figma">70%</div>
+                        </div>
+                    </li>
+                    <li class="list-item">Chrome DevTools
+                        <div class="skills-wrapper">
+                            <div class="skills skill-chrome">80%</div>
+                        </div>
+                    </li>
+                    <li class="list-item">Git
+                        <div class="skills-wrapper">
+                            <div class="skills skill-git">70%</div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="section-left" id="languages">
+                <h2 class="section-title left">Languages</h2>
+
+                <ul class="list section-content">
+                    <li class="list-item">English (B1 level)</li>
+                    <li class="list-item">Russian (native)</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="right-column">
+
+            <section id="personal">
+                <h2 class="section-title right">About me</h2>
+
+                <p class="section-content"> I am interested in programming. My goal is to become a
+                    <mark>senior frontend developer</mark>
+                    . Currently I don’t have experience in this field, but I
+                    intend to learn and grow fast. I am
+                    <mark>persistent</mark>
+                    ,
+                    <mark>patient</mark>
+                    and
+                    <mark>diligent</mark>
+                    . Also I am
+                    <mark>good at foreign languages</mark>
+                    . I am sure it will help me achieve my goal.
+                </p>
+            </section>
+
+
+            <section id="code">
+                <h2 class="section-title right">Code examples</h2>
+
+                <pre>
+       <code class="html">
+        &lt;section class="section contacts-section" id="contacts"&gt;
+            &lt;figure class="contacts-picture-container"&gt;
+                &lt;img class="contacts-picture"
+                 src="my%20photo.jpeg"
+                 alt="my photo"
+                &gt;
+            &lt;/figure&gt;
+
+            &lt;div class="contacts-text"&gt;
+                &lt;h2 class="contacts-title"&gt;
+                    Elena Samoilova
+                &lt;/h2&gt;
+
+                &lt;ul class="contacts-list"&gt;
+                    &lt;li class="contacts-list-item"&gt;&lt;u&gt;St.Petersburg, Russia&lt;/u&gt;&lt;/li&gt;
+                    &lt;li class="contacts-list-item"&gt;&lt;b&gt;cell:&lt;/b&gt; +7-967-597-68-62&lt;/li&gt;
+                    &lt;li class="contacts-list-item"&gt;&lt;b&gt;email:&lt;/b&gt; helen-js@mail.ru&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/section&gt;
+       </code>
+        </pre>
+
+                <details>
+                    <summary class="section-content">Show more examples</summary>
+                    <pre>
+                <code class="js">
+        const makeItFunny = (str, n) =&gt; {
+            let localString = '';
+
+            for(let i = 0; i &lt;= str.length - 1; i++) {
+
+                    let char = str.charAt(i)
+
+                    if((i + 1) % n == 0) {
+                    char = char.toUpperCase();
+                    }
+            localString = localString.concat(char);
+            }
+        return localString;
+        }
+        makeItFunny("I never look back", 3)
+                </code>
+            </pre>
+                </details>
+            </section>
+
+            <section id="projects">
+                <h2 class="section-title right">My projects</h2>
+
+                <a class="projects-content" href="https://helen-js.github.io/vertical-slider/" target="_blank">
+                    <div class="project-text">
+                        <h3>Vertical Slider - RS School task</h3>
+                    </div>
+                    <figure class="project-picture">
+                        <img src="img/vertical-slider.png" alt="vertical slider">
+                    </figure>
+                </a>
+            </section>
+
+            <section id="experience" class="experience">
+                <h2 class="section-title right">Work experience</h2>
+
+                <div class="timeline section-content">
+                    <div class="container left">
+                        <div class="experience-content">
+                            <h3>March - August 2018</h3>
+                            <h4>English teacher, SkyEng</h4>
+                            <p>Teaching English online</p>
+                        </div>
+                    </div>
+
+                    <div class="container right">
+                        <div class="experience-content">
+                            <h3>September 2017 - February 2018</h3>
+                            <h4>English teacher, Secondary School of Bogatoe</h4>
+                            <p>Teaching English (2-4 grades), extracurricular activities (2-4, 7 grades)</p>
+                        </div>
+                    </div>
+
+                    <div class="container left">
+                        <div class="experience-content">
+                            <h3>September 2016 - August 2017</h3>
+                            <h4>English teacher, Secondary School #551</h4>
+                            <p>Teaching English (4-11 grades)</p>
+                        </div>
+                    </div>
+
+                    <div class="container right">
+                        <div class="experience-content">
+                            <h3>October 2014 - May 2016</h3>
+                            <h4>Technical support specialist, Rostelecom</h4>
+                            <p>Answering phone calls. Technical customer support over the phone.</p>
+                        </div>
+                    </div>
+
+                    <div class="container left">
+                        <div class="experience-content">
+                            <h3>August 2013 - July 2014</h3>
+                            <h4>Montessori teacher, American Montessori International School</h4>
+                            <p>Working with children 3-6 years old, teaching them the basics: reading, writing and math
+                                (in English) and playing special developing games.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education">
+                <h2 class="section-title right">Education</h2>
+
+                <ul class="list education-list section-content">
+                    <li class="list-item">
+                        <b>2015</b> &ndash; Herzen Russian State Pedagogical University, St.Petersburg. Institute of
+                        Postgraduate Education,
+                        English teacher in secondary school.
+                    </li>
+                    <li class="list-item">
+                        <b>2014</b> &ndash; Brigham Young University-Idaho. Online English classes.
+                    </li>
+                    <li class="list-item">
+                        <b>2008</b> &ndash; Perm State University, Perm. Faculty of Geography, Nature Management.
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-left"></div>
+        <div class="footer-content">
+            <div class="tooltip">
+                <a class="footer-logo" href="https://rs.school/js/" target="_blank">
+                    <img class="logo"
+                         src="img/rs_school_logo.jpeg"
+                         alt="rs_school_js logo"
+                    >
+                </a>
+                <span class="tooltip-text">https://rs.school/js/</span>
+            </div>
+            <div class="footer-text">
+                &#169;
+                <span class="tooltip">
+                <a class="tooltip" href="https://github.com/Helen-JS" target="_blank">Helen-JS</a>,
+                <span class="tooltip-text">Visit my Github page</span>
+            </span>
+                2021.
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
