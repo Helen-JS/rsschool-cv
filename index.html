@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Elena Samoilova">
+    <meta name="author" content="Elena Samoylova">
     <meta name="keywords" content="HTML, CSS, JavaScript, programming, frontend, cv">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,10 +18,10 @@
             rel="stylesheet">
     <title>CV Elena Samoylova</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://kit.fontawesome.com/28f34a0231.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="page-wrapper">
@@ -46,6 +46,9 @@
                     </li>
                     <li>
                         <a href="#code">Code examples</a>
+                    </li>
+                    <li>
+                        <a href="#projects">My projects</a>
                     </li>
                     <li>
                         <a href="#experience">Work experience</a>
@@ -73,31 +76,84 @@
                 <h2 class="section-title left">Contacts</h2>
 
                 <ul class="contacts-list">
-                    <li class="contacts-list-item"><u><b>St.Petersburg, Russia</b></u></li>
-                    <li class="contacts-list-item"><b>cell:</b> +7-967-597-68-62</li>
-                    <li class="contacts-list-item"><b>email:</b> helen-js@mail.ru</li>
+                    <li>
+                        <i class="fa fa-map-marker"></i>
+                        <u><b>St.Petersburg, Russia</b></u>
+                    </li>
+                    <li>
+                        <i class="fa fa-phone"></i>
+                        +7-967-597-68-62
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                        helen-js@mail.ru
+                    </li>
+                    <li>
+                        <a href="https://t.me/helen_jsdev" target="_blank">
+                        <i class="fa fa-telegram"></i>
+                        helen_jsdev
+                        </a>
+                    </li>
                 </ul>
             </section>
 
             <section class="section-left" id="skills">
                 <h2 class="section-title left">Skills</h2>
 
-                <ul class="list section-text">
-                    <li class="list-item">HTML</li>
-                    <li class="list-item">CSS</li>
-                    <li class="list-item">JavaScript</li>
-                    <li class="list-item">Figma</li>
-                    <li class="list-item">Chrome DevTools</li>
-                    <li class="list-item">GitHub</li>
+                <ul class="list section-content">
+                    <li class="list-item">
+                        <i class="fab fa-html5"></i>
+                        HTML
+                        <div class="skills-wrapper">
+                            <div class="skills skill-html">80%</div>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <i class="fab fa-css3-alt"></i>
+                        CSS
+                        <div class="skills-wrapper">
+                            <div class="skills skill-css">80%</div>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <i class="fab fa-js-square"></i>
+                        JavaScript
+                        <div class="skills-wrapper">
+                            <div class="skills skill-js">20%</div>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <i class="fab fa-figma"></i>
+                        Figma
+                        <div class="skills-wrapper">
+                            <div class="skills skill-figma">70%</div>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <i class="fab fa-chrome"></i>
+                        Chrome DevTools
+                        <div class="skills-wrapper">
+                            <div class="skills skill-chrome">80%</div>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <i class="fab fa-git-alt"></i>
+                        Git
+                        <div class="skills-wrapper">
+                            <div class="skills skill-git">70%</div>
+                        </div>
+                    </li>
                 </ul>
             </section>
 
             <section class="section-left" id="languages">
                 <h2 class="section-title left">Languages</h2>
 
-                <ul class="list section-text">
-                    <li class="list-item">English (B1 level)</li>
-                    <li class="list-item">Russian (native)</li>
+                <ul class="list section-content">
+                    <li class="list-item">
+                        <i class="fas fa-flag-usa"></i>
+                        English (B1 level)
+                    </li>
                 </ul>
             </section>
         </div>
@@ -107,7 +163,7 @@
             <section id="personal">
                 <h2 class="section-title right">About me</h2>
 
-                <p class="section-text"> I am interested in programming. My goal is to become a
+                <p class="section-content"> I am interested in programming. My goal is to become a
                     <mark>senior frontend developer</mark>
                     . Currently I don’t have experience in this field, but I
                     intend to learn and grow fast. I am
@@ -152,7 +208,7 @@
         </pre>
 
                 <details>
-                    <summary class="section-text">Show more examples</summary>
+                    <summary class="section-content">Show more examples</summary>
                     <pre>
                 <code class="js">
         const makeItFunny = (str, n) =&gt; {
@@ -175,25 +231,70 @@
                 </details>
             </section>
 
-            <section id="experience">
+            <section id="projects">
+                <h2 class="section-title right">My projects</h2>
+
+                <a class="projects-content" href="https://helen-js.github.io/vertical-slider/" target="_blank">
+                    <div class="project-text">
+                        <h3>Vertical Slider - RS School task</h3>
+                    </div>
+                    <figure class="project-picture">
+                        <img src="img/vertical-slider.png" alt="vertical slider">
+                    </figure>
+                </a>
+            </section>
+
+            <section id="experience" class="experience">
                 <h2 class="section-title right">Work experience</h2>
 
-                <p class="section-text">Typing... please wait... Well, I think I'll just put this picture here for
-                    now:</p>
+                <div class="timeline section-content">
+                    <div class="container left-container">
+                        <div class="experience-content">
+                            <h3>March - August 2018</h3>
+                            <h4>English teacher, SkyEng</h4>
+                            <p>Teaching English online</p>
+                        </div>
+                    </div>
 
-                <figure class="experience-picture-wrapper">
-                    <img class="experience-picture"
-                         src="img/JavaScript-code.jpeg"
-                         alt="JavaScript code"
-                    >
-                    <figcaption class="experience-picture-caption">My future job :)</figcaption>
-                </figure>
+                    <div class="container right-container">
+                        <div class="experience-content">
+                            <h3>September 2017 - February 2018</h3>
+                            <h4>English teacher, Secondary School of Bogatoe</h4>
+                            <p>Teaching English (2-4 grades), extracurricular activities (2-4, 7 grades)</p>
+                        </div>
+                    </div>
+
+                    <div class="container left-container">
+                        <div class="experience-content">
+                            <h3>September 2016 - August 2017</h3>
+                            <h4>English teacher, Secondary School #551</h4>
+                            <p>Teaching English (4-11 grades)</p>
+                        </div>
+                    </div>
+
+                    <div class="container right-container">
+                        <div class="experience-content">
+                            <h3>October 2014 - May 2016</h3>
+                            <h4>Technical support specialist, Rostelecom</h4>
+                            <p>Answering phone calls. Technical customer support over the phone.</p>
+                        </div>
+                    </div>
+
+                    <div class="container left-container">
+                        <div class="experience-content">
+                            <h3>August 2013 - July 2014</h3>
+                            <h4>Montessori teacher, American Montessori International School</h4>
+                            <p>Working with children 3-6 years old, teaching them the basics: reading, writing and math
+                                (in English) and playing special developing games.</p>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <section id="education">
                 <h2 class="section-title right">Education</h2>
 
-                <ul class="list education-list section-text">
+                <ul class="list education-list section-content">
                     <li class="list-item">
                         <b>2015</b> &ndash; Herzen Russian State Pedagogical University, St.Petersburg. Institute of
                         Postgraduate Education,
