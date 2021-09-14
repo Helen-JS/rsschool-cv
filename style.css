@@ -175,18 +175,33 @@ mark {
     list-style-type: none;
 }
 
+.contacts-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .list {
     padding-left: 30px;
     line-height: 150%;
+    list-style-type: none;
 }
 
 .list-item {
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.list-item i, .contacts-list i {
+    width: 30px;
+}
+
+.list-item i:hover, .contacts-list a:hover {
+    opacity: 0.6;
 }
 
 .skills-wrapper {
-    width: 100%;
+    width: 87%;
+    margin-left: 13%;
     line-height: normal;
     font-size: 0.7em;
     box-shadow: 0 2px 5px #330000;
@@ -227,8 +242,6 @@ mark {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .timeline::after {
@@ -262,15 +275,15 @@ mark {
     z-index: 1;
 }
 
-.container.left {
+.left-container {
     left: 0;
 }
 
-.container.right {
+.right-container {
     left: 50%;
 }
 
-.container.left::before {
+.left-container::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -283,7 +296,7 @@ mark {
     border-color: transparent transparent transparent bisque;
 }
 
-.container.right::before {
+.right-container::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -296,7 +309,7 @@ mark {
     border-color: transparent bisque transparent transparent;
 }
 
-.container.right::after {
+.right-container::after {
     left: -16px;
 }
 
@@ -418,6 +431,26 @@ code {
     opacity: 1;
 }
 
+@media only screen and (min-width: 1736px) {
+    body {
+        font-size: 26px;
+    }
+
+    .menu-list {
+        font-size: 18px;
+    }
+
+    .left-column ul {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 1661px) {
+    body {
+        font-size: 22px;
+    }
+}
+
 @media only screen and (min-width: 1588px) {
     body {
         font-size: 21px;
@@ -434,36 +467,6 @@ code {
     .header-subtitle {
         font-size: 36px;
     }
-
-    .section-text {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-}
-
-@media only screen and (min-width: 1661px) {
-    body {
-        font-size: 22px;
-    }
-
-    .section-text {
-        padding-top: 26px;
-        padding-bottom: 26px;
-    }
-}
-
-@media only screen and (min-width: 1736px) {
-    body {
-        font-size: 26px;
-    }
-
-    .menu-list {
-        font-size: 18px;
-    }
-
-    .left-column ul {
-        font-size: 28px;
-    }
 }
 
 @media only screen and (max-width: 1090px) {
@@ -473,6 +476,16 @@ code {
 
     .left-column ul {
         font-size: 20px;
+    }
+
+    .timeline {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .experience-content {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .footer-content {
@@ -608,11 +621,11 @@ code {
         border-color: transparent bisque transparent transparent;
     }
 
-    .container.left::after, .container.right::after {
-        left: 15px;
+    .left-container::after, .right-container::after {
+        left: 5px;
     }
 
-    .container.right {
+    .right-container {
         left: 0;
     }
 }
@@ -634,9 +647,17 @@ code {
     code {
         font-size: 12px;
     }
+}
+
+@media only screen and (max-width: 450px) {
+    .experience-content {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
     .footer-content {
         flex-direction: column;
+        row-gap: 5px;
     }
 }
 
