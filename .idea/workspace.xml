@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="456a34f9-0218-4a55-9d61-9207c1a18df9" name="Default Changelist" comment="feat: add work experience timeline, projects section, icons">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/JavaScript-code.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xxXBctBLpbkdYr89cAXdjk1qiM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="456a34f9-0218-4a55-9d61-9207c1a18df9" name="Default Changelist" comment="" />
+      <created>1631297579781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631297579781</updated>
+      <workItem from="1631297581067" duration="3428000" />
+      <workItem from="1631355470906" duration="16867000" />
+      <workItem from="1631540402006" duration="18122000" />
+      <workItem from="1631600991992" duration="54000" />
+      <workItem from="1631601051906" duration="10498000" />
+      <workItem from="1632150426448" duration="5793000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: add js file, add features to html and css">
+      <created>1631298564146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631298564147</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: add work experience timeline and link to projects">
+      <created>1631403169700</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631403169700</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: add work experience timeline, projects section, icons">
+      <created>1631631788530</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631631788530</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: add js file, add features to html and css" />
+    <MESSAGE value="feat: add work experience timeline and link to projects" />
+    <MESSAGE value="feat: add work experience timeline, projects section, icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add work experience timeline, projects section, icons" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1631631788062">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1631631788062" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1366.745@0.23.1366.745" timestamp="1631298563784" />
+    <state x="58" y="46" key="SettingsEditor" timestamp="1631374779037">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="58" y="46" key="SettingsEditor/0.23.1366.745@0.23.1366.745" timestamp="1631374779037" />
+    <state x="0" y="224" key="Vcs.Push.Dialog.v2" timestamp="1631631801867">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="224" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1631631801867" />
+    <state x="0" y="240" key="Vcs.Push.Dialog.v2/0.23.1366.745@0.23.1366.745" timestamp="1631298619197" />
+    <state x="484" y="521" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1631299941955">
+      <screen x="0" y="23" width="1366" height="745" />
+    </state>
+    <state x="484" y="521" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1366.745@0.23.1366.745" timestamp="1631299941955" />
+  </component>
+</project>
