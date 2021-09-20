@@ -227,6 +227,60 @@ mark {
 .skill-chrome {width: 80%}
 .skill-git {width: 70%}
 
+.personal-video {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal-video iframe {
+    width: 93%;
+    height: 390px;
+    box-shadow: 0 5px 20px #330000;
+    border: 2px solid #330000;
+    border-radius: 5px;
+}
+
+code {
+    display: block;
+    margin: 10px 30px -30px;
+    border-radius: 5px;
+    overflow: scroll;
+    font-size: 18px;
+    box-shadow: 0 5px 20px #330000;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: midnightblue;
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid #330000;
+    box-shadow: 0 5px 20px #330000;
+    border-radius: 5px;
+}
+
+.projects-content:hover {
+    opacity: 0.8;
+}
+
+.project-text {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.project-text h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.project-picture img {
+    max-width: 100%;
+}
 
 .experience h3 {
     font-style: italic;
@@ -324,42 +378,6 @@ mark {
 .education-list {
     list-style-type: none;
 }
-
-
-code {
-    display: block;
-    margin: 10px 30px -30px;
-    border-radius: 5px;
-    overflow: scroll;
-    font-size: 18px;
-    box-shadow: 0 5px 20px #330000;
-}
-
-
-.projects-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: midnightblue;
-    margin: 30px;
-    padding: 20px;
-    border: 2px solid #330000;
-    box-shadow: 0 5px 20px #330000;
-}
-
-.projects-content:hover {
-    opacity: 0.8;
-}
-
-.project-text {
-    margin-bottom: 20px;
-}
-
-.project-picture img {
-    max-width: 100%;
-}
-
 
 .footer {
     display: flex;
